@@ -30,6 +30,10 @@ Do not issue control commands unless all preflight checks pass. If the environme
 
 When the preflight passes, the `herdr` binary in `PATH` talks to the current session. Use it to inspect neighboring work, create terminal layout, start agents and commands, read output, and wait for state changes.
 
+## Open code in TTT
+
+When the user asks to open, view, or edit a source file, use the `pallas-ttt` skill (`/pallas-ttt`). Open it in a TTT Editor pane. Do not satisfy that request by only reading the file into the chat, and do not run `ttt` in this pane.
+
 ## Learn the current CLI
 
 The installed binary is the authority for command syntax. Start with:

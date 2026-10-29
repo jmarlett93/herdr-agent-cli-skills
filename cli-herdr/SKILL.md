@@ -34,6 +34,10 @@ When the preflight passes, the `herdr` binary in `PATH` talks to the current ses
 
 When the user asks to open, view, or edit a source file, use the `pallas-ttt` skill (`/pallas-ttt`). Open it in a TTT Editor pane. Do not satisfy that request by only reading the file into the chat, and do not run `ttt` in this pane.
 
+## Read markdown in Glow
+
+When the user asks to open a file in Glow, or wants a rendered read-only markdown view, use the `pallas-glow` skill (`/pallas-glow`). Open it in its own pane. Do not run `glow` in this pane. Use `pallas-ttt` when they want to edit the file.
+
 ## Learn the current CLI
 
 The installed binary is the authority for command syntax. Start with:

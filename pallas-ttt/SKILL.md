@@ -9,7 +9,7 @@ description: >-
 
 # Open a file in TTT
 
-TTT is the terminal IDE. Inside Herdr it runs in its own pane via the `ttt.editor` plugin. Do not launch `ttt` in the agent pane.
+TTT is the terminal IDE. Inside Herdr it runs in its own pane via the `ttt.editor` plugin. Do not launch `ttt` in the agent pane. For a rendered read-only markdown view, use `pallas-glow`.
 
 ## Preflight
 
